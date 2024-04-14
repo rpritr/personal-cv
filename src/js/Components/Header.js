@@ -11,19 +11,20 @@ const Header = () => {
                 items={
                 [
                     {
-                        title: "Home",
-                        url: '#home',
-                    },
-                    {
-                        title: "About",
-                        url: '#about',
-                    },
-                    {
                         title: "Tech Stack",
                         url: '#tech-stack',
                     },
+                    {
+                        title: "Projects",
+                        url: '#projects',
+                    },
+                    {
+                        title: "Contact",
+                        url: '#contact',
+                    },
                 ]
                 }
+                asList={false}
             />
             <Social
                 items={

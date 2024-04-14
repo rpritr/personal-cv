@@ -2,7 +2,7 @@
 .projects-list {
   display: flex;
   @include tablet {
-    display: block;
+    display: inline-block;
     width: 100%;
   }
   @include mobile {

@@ -6,18 +6,20 @@ import Section from "./Components/Section";
 import Gallery from "./Components/Gallery";
 import Project from "./Components/Project";
 import ProjectList from "./Components/ProjectList";
+import Footer from "./Components/Footer";
+
 const App = () => {
     return (
         <>
             <Header/>
             <Hero title={["Hi 👋,",<br/>,"My name is",
-                <br/>,<span>Robi Pritržnik</span>,<br/>,"I build things for web"]}
+                <br/>,<span className="colorful">Robi Pritržnik</span>,<br/>,"I build things for web"]}
             image="../img/profile.png"
             id="about"
             />
             <Section
                 class="tech section"
-                id="tech"
+                id="tech-stack"
                 title="My Tech Stack"
                 subtitle="Technologies I’ve been working with recently"
             >
@@ -60,6 +62,7 @@ const App = () => {
             >
                     <ProjectList/>
                 </Section>
+            <Footer/>
         </>
         )
 }

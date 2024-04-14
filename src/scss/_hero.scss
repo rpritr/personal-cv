@@ -33,15 +33,12 @@
       @include mobile {
         font-size: 1.625rem;
         line-height: 1.375rem;
+        text-align: center;
       }
       font-size: 3.625rem;
       font-weight: bold;
       line-height: 4.375rem;
-      span {
-        background: -webkit-linear-gradient(45deg, $adjacent, $secondary);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
+
     }
   }
 }

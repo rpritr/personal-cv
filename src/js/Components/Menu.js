@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 
 import "../../scss/_menu.scss";
 const Menu = (props) => {
     const [mobile, setMobile] = useState(false);
 
     const openMenu = () => {
-        console.log("mobile click");
         setMobile(!mobile);
-        console.log(displayMenu());
     }
+
     let displayMenu = () => {
         if(mobile) {
             return (
