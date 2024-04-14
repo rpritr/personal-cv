@@ -1,0 +1,40 @@
+@import "./variables";
+@import "mixins";
+.hero {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  @include mobile {
+    margin-top: 10em;
+    margin-bottom: 5rem;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include mobile {
+      display: block;
+      .col {
+        margin-bottom: 5rem;
+      }
+    }
+    h1 {
+      font-family: "Poppins", sans-serif;
+      @include tablet {
+        font-size: 2.625rem;
+        line-height: 3.375rem;
+      }
+      @include mobile {
+        font-size: 1.625rem;
+        line-height: 1.375rem;
+      }
+      font-size: 3.625rem;
+      font-weight: bold;
+      line-height: 4.375rem;
+      span {
+        background: -webkit-linear-gradient(45deg, $adjacent, $secondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}

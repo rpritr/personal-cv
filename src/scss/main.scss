@@ -3,7 +3,7 @@
 @import "./variables";
 @import "./_mixins.scss";
 html, body {
-
+  font-size: 16px;
   background-color: $dark;
   h1 {
     color: $grey-300;
@@ -23,6 +23,8 @@ html, body {
     }
     @include mobile {
       width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 }

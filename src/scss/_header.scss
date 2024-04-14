@@ -1,5 +1,19 @@
+@import "./_mixins.scss";
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+  @include mobile {
+    display: block;
+
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
+    }
+  }
+
 }

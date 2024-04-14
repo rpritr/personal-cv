@@ -6,7 +6,7 @@ const Social = (props) => {
         <div className="social">
             {props.items.map(item => (
                 <li key={item.url}>
-                    <a href={item.url}>
+                    <a href={item.url} target="_blank">
                         <img src={item.img} alt={item.alt}/>
                     </a>
                 </li>
