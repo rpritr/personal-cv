@@ -1,4 +1,14 @@
-@use "./variables";
-h1 {
-  color: red;
+@import "./variables";
+html, body {
+
+  background-color: $dark;
+  h1 {
+    color: $grey-300;
+    font-family: "Poppins", sans-serif;
+  }
+  p {
+    color: $grey-300;
+    font-family: "Poppins", sans-serif;
+
+  }
 }
