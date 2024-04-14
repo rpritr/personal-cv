@@ -1,7 +1,6 @@
 import React from "react";
-import Header from "./Components/Header";
-import '../scss/_variables.scss';
 import '../scss/main.scss';
+import Header from "./Components/Header";
 
 const App = () => {
     return (
