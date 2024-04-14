@@ -1,0 +1,11 @@
+@import "mixins";
+.projects-list {
+  display: flex;
+  @include tablet {
+    display: block;
+    width: 100%;
+  }
+  @include mobile {
+    display: block;
+  }
+}

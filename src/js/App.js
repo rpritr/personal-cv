@@ -53,7 +53,7 @@ const App = () => {
             />
             </Section>
                 <Section
-                    id="tech-stack"
+                    id="projects"
                     class="projects section"
                     title="Projects"
                     subtitle="Things I’ve built so far"
