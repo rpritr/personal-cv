@@ -21,6 +21,10 @@ li {
   }
   .toggle {
     width: 50px;
+    display: none;
+    @include mobile {
+      display: block;
+    }
   }
 }
 .menu {

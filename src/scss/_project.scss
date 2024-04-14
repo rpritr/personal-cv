@@ -1,0 +1,50 @@
+@import "variables";
+@import "mixins";
+.project {
+  background-color: $grey-500;
+  border-radius: 40px;
+  width: 33%;
+  text-align:left;
+  @include tablet {
+    width: 50%;
+  }
+  @include mobile {
+    width: 100%;
+  }
+  .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: $grey-300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.125rem;
+    color: $grey-300;
+    margin-bottom: 1rem;
+
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    .icon {
+      height: 20px;
+      width: 20px;
+      margin-right: 0.5rem;
+    }
+    button {
+      color: $white-100;
+      font-family: "Poppins", sans-serif;
+      margin-right: 1rem;
+      text-decoration: underline;
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Section from "./Components/Section";
 import Gallery from "./Components/Gallery";
+import Project from "./Components/Project";
 const App = () => {
     return (
         <>
@@ -52,10 +53,27 @@ const App = () => {
             </Section>
                 <Section
                     id="tech-stack"
-                class="projects section"
-                title="Projects"
-                subtitle="Things I’ve built so far"
-            />
+                    class="projects section"
+                    title="Projects"
+                    subtitle="Things I’ve built so far"
+            >
+                    <Project
+                        image="../img/project.png"
+                        url="https://github.com/rpritr/personal-cv"
+                        description="This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content"
+                        short="Tech stack : HTML , JavaScript, SASS, React"
+                        title="Project Tile goes here"
+                        button2={{
+                            url: "https://github.com/rpritr/personal-cv",
+                            title: "View Code",
+                        }}
+                        button1={{
+                            url: "https://github.com/rpritr/personal-cv",
+                            title: "Live Preview",
+
+                        }}
+                    />
+                </Section>
         </>
         )
 }
