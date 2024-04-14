@@ -1,9 +1,26 @@
 import React from "react";
+import Logo from "./Logo";
+import Menu from "./Menu";
 
+import "../../scss/_header.scss";
 const Header = () => {
     return (
         <header>
-            <h1>Test</h1>
+            <Logo url="../img/logo.svg" />
+            <Menu
+                items={
+                [
+                    {
+                        title: "Home",
+                        url: '#home',
+                    },
+                    {
+                        title: "Tech Stack",
+                        url: '#tech-stack',
+                    },
+                ]
+                }
+            />
         </header>
     )
 }

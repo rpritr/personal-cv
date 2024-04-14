@@ -1,4 +1,5 @@
 @import "./variables";
+@import "./_mixins.scss";
 html, body {
 
   background-color: $dark;
@@ -10,5 +11,16 @@ html, body {
     color: $grey-300;
     font-family: "Poppins", sans-serif;
 
+  }
+  .container {
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+    @include tablet {
+      width: 80%;
+    }
+    @include mobile {
+      width: 100%;
+    }
   }
 }

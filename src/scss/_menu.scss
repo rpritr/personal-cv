@@ -1,0 +1,17 @@
+@import "./variables";
+
+li {
+  list-style: none;
+  float: left;
+  margin-right: 60px;
+  a {
+    color: $grey-100;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    &:hover {
+      color: $adjacent;
+    }
+  }
+}
