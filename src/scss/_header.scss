@@ -1,0 +1,34 @@
+@import "./_mixins.scss";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  @include mobile {
+    display: block;
+    .logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
+    }
+    .mobile-menu {
+      .toggle {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+      }
+      ul {
+        margin-top: 1rem;
+        li {
+          width: 100%;
+          margin-bottom: 1rem;
+          text-align:center;
+        }
+      }
+    }
+    .social { display: none; }
+  }
+
+}

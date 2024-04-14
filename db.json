@@ -1,0 +1,22 @@
+{
+  "projects": [
+    { "id": "1", "title": "Car sharing", "description": "Car sharing template",
+      "short": "HTML, CSS",
+      "image" : "https://picsum.photos/seed/picsum/200/300",
+      "url": "https://github.com/rpritr/CodersLab-CarSharing",
+      "github" : "https://github.com/rpritr/CodersLab-CarSharing"
+    },
+    { "id": "2", "title": "Persona CV", "description": "My personal webpage",
+      "short": "HTML, CSS, Sass, React, JSON",
+      "image" : "https://picsum.photos/seed/picsum/200/300",
+      "url": "https://github.com/rpritr/personal-cv",
+      "github" : "https://github.com/rpritr/personal-cv"
+    },
+    { "id": "3", "title": "Test", "description": "Test template",
+      "short": "HTML, CSS",
+      "image" : "https://picsum.photos/seed/picsum/200/300",
+      "url": "https://github.com/rpritr/CodersLab-CarSharing",
+      "github" : "https://github.com/rpritr/CodersLab-CarSharing"
+    }
+  ]
+}
