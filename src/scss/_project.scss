@@ -6,8 +6,10 @@
   text-align:left;
   margin-right: 2rem;
   width: 33%;
+  box-sizing: border-box;
   @include tablet {
     float: left;
+    width:45%;
   }
   @include mobile {
     width: 100%;

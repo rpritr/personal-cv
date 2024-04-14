@@ -14,9 +14,20 @@ header {
       text-align: center;
     }
     .mobile-menu {
-      position: absolute;
-      top: 0.5rem;
-      left: 80%;
+
+      .toggle {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+      }
+      ul {
+        margin-top: 1rem;
+        li {
+          width: 100%;
+          margin-bottom: 1rem;
+          text-align:center;
+        }
+      }
     }
     .social {
       display: none;
