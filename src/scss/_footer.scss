@@ -12,28 +12,18 @@ footer {
       margin-right: auto;
       width: 100%;
       text-align: center;
-      .logo {
-        text-align: center;
-        margin-bottom: 2rem;
-      }
+      .logo { text-align: center;margin-bottom: 2rem; }
       nav {
         text-align: center;
         margin-top: 1rem;
         display: inline-block;
-
       }
-      .social {
-      margin-top: 1rem;
-        display: inline-block;
-      }
+      .social { margin-top: 1rem; display: inline-block;}
       .copyright p { margin-top: 2rem;}
     }
     &:nth-child(1) {
       padding-bottom: 3rem;
-      @include mobile {
-        padding-bottom: 1rem;
-
-      }
+      @include mobile { padding-bottom: 1rem; }
       border-bottom: 2px solid $footer-divider;
     }
     p {
@@ -45,13 +35,9 @@ footer {
     .menu {
       display: flex;
      li {
-       @include mobile {
-         margin-right: 10px;
-       }
+       @include mobile { margin-right: 10px; }
      }
     }
-    .mobile-menu {
-      display: none;
-    }
+    .mobile-menu { display: none; }
   }
 }

@@ -4,7 +4,6 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Section from "./Components/Section";
 import Gallery from "./Components/Gallery";
-import Project from "./Components/Project";
 import ProjectList from "./Components/ProjectList";
 import Footer from "./Components/Footer";
 
@@ -58,8 +57,7 @@ const App = () => {
                     id="projects"
                     class="projects section"
                     title="Projects"
-                    subtitle="Things I’ve built so far"
-            >
+                    subtitle="Things I’ve built so far">
                     <ProjectList/>
                 </Section>
             <Footer/>

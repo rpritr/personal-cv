@@ -36,18 +36,13 @@
     color: $grey-300;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    @include tablet {
-      font-size: 1.3rem;
-    }
+    @include tablet { font-size: 1.3rem; }
   }
   p {
     font-size: 1.125rem;
     color: $grey-300;
     margin-bottom: 1rem;
-    @include tablet {
-      font-size: 1rem;
-    }
-
+    @include tablet { font-size: 1rem; }
   }
   .buttons {
     display: flex;
@@ -58,21 +53,17 @@
         margin-bottom: 1rem;
       }
     }
-    @include tablet {
-     display: block;
-    }
+    @include tablet { display: block; }
     .icon {
       height: 20px;
       width: 20px;
       margin-right: 0.5rem;
     }
-
     button {
       color: $white-100;
       font-family: "Poppins", sans-serif;
       margin-right: 1rem;
       text-decoration: underline;
-
     }
   }
 }

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 
 import "../../scss/_menu.scss";
 const Menu = (props) => {
@@ -44,7 +44,7 @@ const Menu = (props) => {
             </ul>
             <div className="mobile-menu">
                 <img src="../../img/toggle.svg" className="toggle"
-                onClick={openMenu}/>
+                onClick={openMenu} alt="Toggle Menu"/>
                 {displayMenu()}
             </div>
 

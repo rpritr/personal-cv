@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import Menu from "./Menu";
 import Social from "./Social";
 import "../../scss/_footer.scss";
-const Footer = (props) => {
+const Footer = () => {
     return (
         <footer id="contact">
             <div className="row">

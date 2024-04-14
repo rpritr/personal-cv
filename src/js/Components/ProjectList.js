@@ -1,11 +1,10 @@
 import React, {useState, useEffect} from "react";
 import Project from "./Project";
 import "../../scss/_projects-list.scss";
-const ProjectList = (props) => {
+const ProjectList = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         const getProjects = async () => {
-
             try {
                 const response = await fetch("http://localhost:3000/projects");
                 const result = await response.json();
