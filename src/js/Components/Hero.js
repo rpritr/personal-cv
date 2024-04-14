@@ -5,7 +5,7 @@ const Hero = (props) => {
         <section className="hero" id={props.id}>
             <div className="row">
                 <div className="col">
-                    <h1>{props.title}</h1>
+                    <h1 key="logo1">{props.title}</h1>
                 </div>
                 <div className="col">
                     <img src={props.image} alt="Profile"/>

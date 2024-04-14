@@ -1,11 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 
 import "../../scss/_menu.scss";
 const Menu = (props) => {
-    console.log(props);
+    const [mobile, setMobile] = useState(false);
+
     return (
+
         <nav>
-            <ul>
+            <ul className="menu">
             {props.items.map(item => (
                 <li key={item.url}>
                     <a href={item.url}>
@@ -14,6 +16,21 @@ const Menu = (props) => {
                 </li>
             ))}
             </ul>
+            <div className="mobile-menu">
+                <img src="../../img/toggle.svg" className="toggle"/>
+                <ul
+                    style={{display:"none"}}
+                >
+                    {props.items.map(item => (
+                        <li key={item.url}>
+                            <a href={item.url}>
+                                {item.title}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+
         </nav>
     )
 }

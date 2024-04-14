@@ -1,5 +1,5 @@
 @import "./variables";
-
+@import "mixins";
 li {
   list-style: none;
   float: left;
@@ -13,5 +13,18 @@ li {
     &:hover {
       color: $adjacent;
     }
+  }
+}
+.mobile-menu {
+  @include desktop {
+    display: none;
+  }
+  .toggle {
+    width: 50px;
+  }
+}
+.menu {
+  @include mobile {
+    display: none;
   }
 }
