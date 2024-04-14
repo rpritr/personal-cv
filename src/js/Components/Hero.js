@@ -2,7 +2,7 @@ import React from "react";
 import "../../scss/_hero.scss";
 const Hero = (props) => {
     return (
-        <section className="hero">
+        <section className="hero" id={props.id}>
             <div className="row">
                 <div className="col">
                     <h1>{props.title}</h1>

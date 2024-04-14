@@ -15,6 +15,10 @@ const Header = () => {
                         url: '#home',
                     },
                     {
+                        title: "About",
+                        url: '#about',
+                    },
+                    {
                         title: "Tech Stack",
                         url: '#tech-stack',
                     },
